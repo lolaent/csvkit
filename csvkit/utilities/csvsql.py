@@ -105,7 +105,7 @@ class CSVSQL(CSVKitUtility):
         # Establish database validity before reading CSV files
         if self.args.connection_string:
             try:
-                engine = create_engine(self.args.connection_string)
+                engine = create_engine(self.args.connection_string, fast_executemany=True)
             except ImportError:
                 raise ImportError("You don't appear to have the necessary database backend installed for connection "
                                   "string you're trying to use. Available backends include:\n\nPostgreSQL:\tpip install "
