@@ -1,5 +1,7 @@
 NOTE: This fork only exists to add fast_executemany=True to the create_engine call in csvsql.py.
 
+See: https://github.com/wireservice/csvkit/issues/1114
+
 
 .. image:: https://secure.travis-ci.org/wireservice/csvkit.svg
     :target: https://travis-ci.org/wireservice/csvkit
