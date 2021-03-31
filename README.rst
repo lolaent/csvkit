@@ -1,3 +1,6 @@
+NOTE: This fork only exists to add fast_executemany=True to the create_engine call in csvsql.py.
+
+
 .. image:: https://secure.travis-ci.org/wireservice/csvkit.svg
     :target: https://travis-ci.org/wireservice/csvkit
     :alt: Build Status
